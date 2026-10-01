@@ -28,9 +28,9 @@ public class pez extends Animal{
          System.out.println(super.getNombre() + " Nada a "+ Profundidad + "Metros de profundidad" );
     }
 
-    @Override
-    public void comer(String comida){
-       System.out.println(super.getNombre() + "Come  "+ comida);
+    
+    public void comer(String comida, double gramos){
+       System.out.println(super.getNombre() + "Comio  "+ gramos + "gr de: " + comida );
     }
     
         
