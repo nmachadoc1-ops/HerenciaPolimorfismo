@@ -20,6 +20,16 @@ public class PerroGrande extends Perro{
         this.PesoKg = PesoKg;
     }
 
+    public int getPesoKg() {
+        return PesoKg;
+    }
+
+    public void setPesoKg(int PesoKg) {
+        this.PesoKg = PesoKg;
+    }
+    
+    
+
     @Override
     public void hacerSonido() {
         System.out.println(super.getNombre()+ " ¡¡GUAU!!"); 
