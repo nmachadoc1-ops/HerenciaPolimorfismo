@@ -13,7 +13,7 @@ package com.poo.herenciapolimorfismo.modelo;
 public class pez extends Animal{
     private int Profundidad;
     
-    public pez(String nombre) {
+    public pez(int Profundidad, String nombre) {
         super(nombre);
         this.Profundidad=0;
     }
