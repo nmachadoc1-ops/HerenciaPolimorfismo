@@ -14,10 +14,20 @@ public class Pajaro extends Animal{
     
     private int altura;
     
+    
+    
+    
+    
     public Pajaro(String nombre) {
         super(nombre);
         this.altura=0;
     }
+    
+    public Pajaro(){
+        super("Arnol");
+    }
+
+    
     
     public void volar(){
         altura+=10;

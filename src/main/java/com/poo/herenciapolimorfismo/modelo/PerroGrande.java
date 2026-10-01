@@ -20,6 +20,10 @@ public class PerroGrande extends Perro{
         this.PesoKg = PesoKg;
     }
 
+    public PerroGrande() {
+       super("Scooby Doo");
+    }
+
     public int getPesoKg() {
         return PesoKg;
     }
